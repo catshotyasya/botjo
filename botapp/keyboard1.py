@@ -1,7 +1,7 @@
 from aiogram.types import InlineKeyboardButton,InlineKeyboardMarkup
 
 faq=InlineKeyboardButton(text='О нас',callback_data='1')
-credit1=InlineKeyboardButton(text='Условия кредитирования',callback_data='2')
+credit1=InlineKeyboardButton(text='Условия кредита',callback_data='2')
 credit2=InlineKeyboardButton(text='Оформить кредит',callback_data='3')
 credit3=InlineKeyboardButton(text='Инвестиционные приоритеты',callback_data=4)
 
