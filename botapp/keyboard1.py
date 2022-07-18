@@ -1,4 +1,4 @@
-from aiogram.types import InlineKeyboardButton,InlineKeyboardMarkup
+from aiogram.types import InlineKeyboardButton,InlineKeyboardMarkup,reply_keyboard,ReplyKeyboardMarkup
 
 faq=InlineKeyboardButton(text='О нас',callback_data='1')
 credit1=InlineKeyboardButton(text='Условия кредита',callback_data='2')
